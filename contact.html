@@ -1,0 +1,113 @@
+<!-- Name: Katia Bottine
+     File: contact.html
+     Date: 11/14/2024 -->
+
+     <!DOCTYPE html>
+     <link rel="stylesheet" href="css/styles.min.css">
+     <title>Contact Us – Location | Wild Rescues.</title>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta name="description" content="Contact us at (814)555-8989 or visit us at 8989 Rescue Drive, Ocala, FL for more information.”" >
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora:wght@400;700&display=swap">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+      
+     </head>
+     <header>
+         <div class="tab-desk">
+             <a href="#">home</a>
+         </div>
+         <div class="mobile">
+             <h1>&#128062; Wild Rescues</h1>
+             <h3>Rescue. Rehabilitate. Release.</h3>
+         </div>
+     </header>
+     <body>
+        <!--Skip to Content Link-->
+        <a class="skip" href="#content">Skip to Content</a>
+     
+       <!-- Mobile NAv -->
+       <nav>
+         <span id="menu" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
+           <menu id="itens">
+             <ul>
+               <li><a href="Index.html"> Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="partnership.html">Partnership</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="faqs.html"> FAQs</a></li>
+               <li><a href="gallery.html"> Gallery</a></li>
+             </ul>
+         </menu>
+       </nav>
+     
+     
+     <!-- end -->
+         <main>
+             <div id="contact">
+                 <h2>You can reach us at:</h2>
+                 <p class="tel-link round">
+                     <a href="tel:+1234567890">+1 (234) 567-890</a>
+                 </p>            
+                 <p>Email: <a href="mailto:contact@wildrescues.net" class="link">contact@wildrescues.net</a></p>
+                 <p>Address: <a href="https://goo.gl/maps/BTJzjc2tALd4RDWA8" class="link" target="_blank">8989 Rescue Drive, Ocala, FL 34471</a></p>
+             </div>
+             <div id="form">
+                 <h2>Complete the form below and we will contact you soon.</h2>
+                 <form class="form-grid"><fieldset>
+                     <legend>Contact Information</legend>
+                     <label for="fName">First Name:</label>
+                     <input type="text" name="fName" id="fName">
+                  
+                     <label for="lName">Last Name:</label>
+                     <input type="text" name="lName" id="lName">
+                  
+                     <label for="bName">Name of Business:</label>
+                     <input type="text" name="bName" id="bName">
+                  
+                     <label for="email">Email:</label>
+                     <input type="email" name="email" id="email">
+                  
+                     <label for="phone">Phone:</label>
+                     <input type="tel" name="phone" id="phone">
+                   </fieldset>
+                   <fieldset>
+                     <legend>Additional Information</legend>
+                     <p>I would like more information about:</p>
+                     <label for="vol"><input type="radio" name="info" id="vol" value="Volunteering"> Volunteering</label>
+                     <label for="sponsor"><input type="radio" name="info" id="sponsor" value="Sponsorship Opportunities"> Sponsorship Opportunities</label>
+                     <label for="wild"><input type="radio" name="info" id="wild" value="Wildlife"> Wildlife</label>
+                     <label for="other"><input type="radio" name="info" id="other" value="Other"> Other, please specify below.</label>
+                     <label for="questions">What questions do you have for us?</label>
+                     <textarea name="questions" id="questions" rows="5" cols="35"></textarea>
+                   </fieldset>
+                   <input type="submit" id="submit" value="Submit" class="btn">
+     
+                 </form>
+               </div>
+         </main>
+        
+     
+         <footer>
+           <div class="copyright">
+             <p>Contact us at <a href="mailto:contact@wildrescues.net">contact@wildrescues.net</a></p>
+             <p>Phone: (978) 305-3010</p>
+           </div>
+           <div class="social">
+             <!-- Facebook Logo -->
+             <a href="https://www.facebook.com" target="_blank">
+               <img src="images/facebook-logo.png" alt="Facebook logo" width="30" height="30">
+             </a>
+             <!-- Twitter Logo -->
+             <a href="https://www.twitter.com" target="_blank">
+               <img src="images/twitter-logo.png" alt="Twitter logo" width="30" height="30">
+             </a>
+           </div>
+           <p>&copy; 2024 Wildlife Rescue Organization. All rights reserved.</p>
+         </footer>
+     
+       <script src="scripts/script.js"></script>
+     </body>
+     </html>
+     
